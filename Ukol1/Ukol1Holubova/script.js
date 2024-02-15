@@ -10,6 +10,6 @@ Vaše stránka se zeptá uživatele teplotu ve stupních Fahrenheita a pomocí d
 
 let Fahrnheit = Number(prompt("Zadej stupně Fahrenheita:"))
 let Celsia= (5*(Fahrnheit-32))/9
-document.body.innerHTML = Fahrnheit + " " + "stupňů Fahrenheita je : " + Celsia.slice(0,5) + " stupňů Celsia."
+document.body.innerHTML = Fahrnheit + " " + "stupňů Fahrenheita je : " + Celsia + " stupňů Celsia."
 
 
