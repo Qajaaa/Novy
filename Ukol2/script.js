@@ -1,4 +1,3 @@
-
 /*
 Pokud se přihlásíte jako student například na Fakultu Informačních Technologí ČVUT, bude vám informačním systémem automaticky přidělen e-mail, který se vytvoří z vašeho jména a příjmení. 
 Z vašeho příjmení se vezme pět prvních znaků a z vašeho křestního jména první tři. Výsledek se převede na malá písmena a připojí se doména fit.cvut.cz. 
@@ -25,3 +24,16 @@ let domena =  "@fit.cvut.cz"
 
 novaAdresa.innerHTML = `<p> ${maleJmeno}${malePrijmeni}${domena}</p> `
 
+/* snažila jsem se zapis provést takto, ale úplně nevím z jakého důvodu nefungoval
+
+const email = {
+
+    mezeraJmeno: jmeno.trim(),
+    mezeraPrjmeni: prijmeni.trim(),
+    urizleJmeno: mezeraJmeno.slice(0, 4),
+    urizlePrijmeni: mezeraPrjmeni.slice(0, 3),
+    maleJmeno: urizleJmeno.toLowerCase(),
+    malePrijmeni: urizlePrijmeni.toLowerCase(),
+    domena: "@fit.cvut.cz"
+};
+*/
