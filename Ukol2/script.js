@@ -16,7 +16,7 @@ let novaAdresa = document.getElementById("novaAdresa")
 let mezeraJmeno = jmeno.trim()
 let mezeraPrjmeni = prijmeni.trim()
 let urizleJmeno = mezeraJmeno.slice(0, 3)
-let urizlePrijmeni = mezeraPrjmeni.slice(0, 3)
+let urizlePrijmeni = mezeraPrjmeni.slice(0, 5)
 let maleJmeno = urizleJmeno.toLowerCase()
 let malePrijmeni = urizlePrijmeni.toLowerCase()
 let domena =  "@fit.cvut.cz"
@@ -30,8 +30,8 @@ const email = {
 
     mezeraJmeno: jmeno.trim(),
     mezeraPrjmeni: prijmeni.trim(),
-    urizleJmeno: mezeraJmeno.slice(0, 4),
-    urizlePrijmeni: mezeraPrjmeni.slice(0, 3),
+    urizleJmeno: mezeraJmeno.slice(0, 3),
+    urizlePrijmeni: mezeraPrjmeni.slice(0, 5),
     maleJmeno: urizleJmeno.toLowerCase(),
     malePrijmeni: urizlePrijmeni.toLowerCase(),
     domena: "@fit.cvut.cz"
