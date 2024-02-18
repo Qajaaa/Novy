@@ -1,24 +1,5 @@
-/*document.body.innerHTML = 
-"<h2>" + pizza.nazev + "</h2>" 
-+ "<p>Cena: " + pizza.cena + "Kc</p>" 
-+ "<p>Zaklad: " + pizza.zaklad + "</p>" 
 
-document.body.innerHTML += `
-<h2>${pizza.nazev}</h2> 
-<p>Cena: ${pizza.cena}</p> 
-<p>Zaklad: ${pizza.zaklad}</p>
-` Interpolace zapisu 
-const email = {
-
-    mezeraJmeno: jmeno.trim(),
-    mezeraPrjmeni: prijmeni.trim(),
-    urizleJmeno: mezeraJmeno.slice(0, 4),
-    urizlePrijmeni: mezeraPrjmeni.slice(0, 3),
-    maleJmeno: urizleJmeno.toLowerCase(),
-    malePrijmeni: urizlePrijmeni.toLowerCase(),
-    domena: "@fit.cvut.cz"
-};
-
+/*
 Pokud se přihlásíte jako student například na Fakultu Informačních Technologí ČVUT, bude vám informačním systémem automaticky přidělen e-mail, který se vytvoří z vašeho jména a příjmení. 
 Z vašeho příjmení se vezme pět prvních znaků a z vašeho křestního jména první tři. Výsledek se převede na malá písmena a připojí se doména fit.cvut.cz. 
 Pro jméno Jana Procházková tak vznikne adresa prochjan@fit.cvut.cz.
