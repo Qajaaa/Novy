@@ -44,15 +44,15 @@ const numbers = [
   });
    const vzdalenostDiv = document.getElementById ("vzdalenost")
 
-   numbers.forEach(index => {
-    const vzdalenost = numbers.indexOf(index) - numbers.indexOf(5)
+   numbers.forEach(number => {
+    const vzdalenost = Math.abs(numbers.indexOf(5) - numbers.indexOf(number))
     vzdalenostDiv.innerHTML += vzdalenost + "<br>";
   })
 
   const vzdalenostMocninaDiv = document.getElementById ("vzdalenostMocnina")
 
-  numbers.forEach(index => {
-   const vzdalenost = index - numbers.indexOf(5)
+  numbers.forEach(number => {
+   const vzdalenost = Math.abs(numbers.indexOf(5) - numbers.indexOf(number))
    const mocnina = vzdalenost * vzdalenost
    vzdalenostMocninaDiv.innerHTML += mocnina + "<br>";
  })
